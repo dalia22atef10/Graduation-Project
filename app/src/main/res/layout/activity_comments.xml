@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+
+    tools:context=".CommentsActivity">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write your comment :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/comment"
+        android:layout_width="352dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/questions"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="15dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="27dp" />
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/buton_bg"
+        android:paddingHorizontal="35dp"
+        android:paddingVertical="10dp"
+        android:text="save Comment"
+        android:layout_marginLeft="70dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerviewComments"
+       android:layout_marginTop="400dp"
+        tools:ignore="MissingClass" />
+</FrameLayout>

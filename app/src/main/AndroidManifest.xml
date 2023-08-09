@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.graduationprojectjavamain">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GraduationProjectJavaMain"
+        tools:targetApi="31">
+        <activity
+            android:name=".perfectionism_guestions.Q5"
+            android:exported="false" />
+        <activity
+            android:name=".perfectionism_guestions.Q4"
+            android:exported="false" />
+        <activity
+            android:name=".perfectionism_guestions.Q3"
+            android:exported="false" />
+        <activity
+            android:name=".perfectionism_guestions.Q2"
+            android:exported="false" />
+        <activity
+            android:name=".perfectionism_guestions.Q1"
+            android:exported="false" />
+        <activity
+            android:name=".Article4_perfectionism"
+            android:exported="false" />
+        <activity
+            android:name=".Article3Perfec"
+            android:exported="false" />
+        <activity
+            android:name=".Article2_perfec"
+            android:exported="false" />
+        <activity
+            android:name=".Article1_perfec"
+            android:exported="false" />
+        <activity
+            android:name=".Article_list_perfec"
+            android:exported="false" />
+        <activity
+            android:name=".Perfection_fourth_vid"
+            android:exported="false" />
+        <activity
+            android:name=".Perfection_thrd_vid"
+            android:exported="false" />
+        <activity
+            android:name=".Perfectionism_second_vid"
+            android:exported="false" />
+        <activity
+            android:name=".Perfectionism_first_vid"
+            android:exported="false" />
+        <activity
+            android:name=".PerfecVid"
+            android:exported="false" />
+        <activity
+            android:name=".perfectionism_guestions.Perfectionism"
+            android:exported="false" />
+        <activity
+            android:name=".GetHelp"
+            android:exported="false" />
+        <activity
+            android:name=".popup5"
+            android:exported="false" />
+        <activity
+            android:name=".popup4"
+            android:exported="false" />
+        <activity
+            android:name=".popup3"
+            android:exported="false" />
+        <activity
+            android:name=".popup2"
+            android:exported="false" />
+        <activity
+            android:name=".popup1"
+            android:exported="false" />
+        <activity
+            android:name=".TipsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixthRecord"
+            android:exported="false" />
+        <activity
+            android:name=".FifthRecord"
+            android:exported="false" />
+        <activity
+            android:name=".FourthRecord"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdRecord"
+            android:exported="false" />
+        <activity
+            android:name=".SecondRecord"
+            android:exported="false" />
+        <activity
+            android:name=".FirstRecord"
+            android:exported="false" />
+        <activity
+            android:name=".Records_list"
+            android:exported="false" />
+        <activity
+            android:name=".Vid4_social_anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".Vid3_social_anixiety"
+            android:exported="false" />
+        <activity
+            android:name=".Vid2_anxiety_social"
+            android:exported="false" />
+        <activity
+            android:name=".Vid1_social_anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".vid_social_anxiety_list"
+            android:exported="false" />
+        <activity
+            android:name=".Article4_social_anixiety"
+            android:exported="false" />
+        <activity
+            android:name=".Article3_social_anixiety"
+            android:exported="false" />
+        <activity
+            android:name=".Article2_social_anixiety"
+            android:exported="false" />
+        <activity
+            android:name=".Article1_social_anixiety"
+            android:exported="false" />
+        <activity
+            android:name=".Social_anixiety_list_articles"
+            android:exported="false" />
+        <activity
+            android:name=".Article3_Anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".Articcle2_anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".ArticlesList"
+            android:exported="false" />
+        <activity
+            android:name=".Article1_anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".vid4_anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".vid3_anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".vid2_anixiety"
+            android:exported="false" />
+        <activity
+            android:name=".vid1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".postsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".communityActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NoteDetailsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".JournalsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ButtomActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".QuestionsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".About_app_activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Sign_UpActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Start_Taking_Actions_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SupportActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Welcome_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CommentsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".App_name_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

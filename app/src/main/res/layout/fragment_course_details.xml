@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseDetailsFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oh_no"
+        android:layout_marginLeft="40dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/vid1"
+        android:text="Video 1"
+        android:layout_width="126dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="150dp"
+        />
+    <Button
+        android:id="@+id/vid2"
+        android:text="Video 2"
+        android:layout_width="126dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"
+        />
+    <Button
+        android:id="@+id/vid3"
+        android:text="Video 3"
+        android:layout_width="126dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="150dp"
+        />
+
+    <Button
+        android:id="@+id/vid4"
+        android:text="Video 4"
+        android:layout_width="126dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="150dp"
+        />
+
+</FrameLayout>

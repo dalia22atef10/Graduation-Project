@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".perfectionism_guestions.Perfectionism">
+
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="177dp"
+        android:text="Perfectionism"
+        android:textColor="#7E57C1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView100"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="59dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView100"
+        app:srcCompat="@drawable/thinking" />
+
+    <Button
+        android:id="@+id/buttonvideo"
+        android:layout_width="171dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="110dp"
+        android:text="Videos"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView100" />
+
+    <Button
+        android:id="@+id/buttonarticle"
+        android:layout_width="171dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="110dp"
+        android:text="Articles "
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonvideo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
